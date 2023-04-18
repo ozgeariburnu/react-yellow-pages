@@ -1,0 +1,55 @@
+#container {
+  width: 400px;
+  background-color: rgb(244, 220, 5);
+  padding: 35px;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list {
+  margin: 15px 0;
+}
+.list > li {
+  background-color: rgb(241, 235, 235);
+  padding: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+.btn > button {
+  padding: 5px;
+  width: 50px;
+  border-radius: 5px;
+}
+.fullname {
+  margin-bottom: 4px;
+  border-radius: 5px;
+  border-style: ridge;
+}
+.filterContact {
+  border-radius: 5px;
+  border-style: ridge;
+}
+.phoneNumber {
+  border-radius: 5px;
+  border-style: ridge;
+}
